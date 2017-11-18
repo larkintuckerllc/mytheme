@@ -1,0 +1,33 @@
+/*
+Theme Name: mytheme
+Theme URI: https://github.com/larkintuckerllc
+Author: John Tucker
+Author URI: https://github.com/larkintuckerllc
+Description: MyTheme
+Version: 1.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: mytheme
+Text Domain: mytheme
+This theme is for the mytheme site.
+*/
+
+/* WORDPRESS MINIMAL */
+img.alignleft, img.alignright, img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: auto;
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  img.alignright {
+     float: right;
+     margin-left: 10px;
+  }
+  img.alignleft {
+     float: left;
+     margin-right: 10px;
+  }
+}
