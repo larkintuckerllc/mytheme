@@ -35,6 +35,7 @@ function mytheme_nav_menu_css_class($classes, $item, $args) {
 function mytheme_wp_nav_menu($ulclass) {
   return preg_replace( '/<a /', '<a class="nav-link"', $ulclass );
 }
+add_theme_support( 'post-thumbnails' );
 add_action( 'init', 'mytheme_register_my_menus' );
 add_action( 'wp_enqueue_scripts', 'mytheme_add_theme_scripts' );
 add_filter( 'nav_menu_css_class', 'mytheme_nav_menu_css_class', 10, 3 );
