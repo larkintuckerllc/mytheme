@@ -14,6 +14,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <?php wp_nav_menu( array(
+          'container' => false,
           'theme_location' => 'header',
           'menu_class' => 'navbar-nav mr-auto'
         ) ); ?>
